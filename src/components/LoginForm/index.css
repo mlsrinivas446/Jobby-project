@@ -1,0 +1,100 @@
+.login-page-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-input-container {
+  background-color: #272727;
+
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 50vw;
+}
+
+.name-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.website-logo {
+  height: 8vh;
+  width: 23vw;
+  align-self: center;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.input-element {
+  border: 1px solid #7e858e;
+  padding: 7px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+
+.login-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px;
+  width: 70px;
+}
+
+.error-msg {
+  font-size: 13px;
+  color: #ff0b37;
+}
+
+.button-container {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    height: 35vh;
+    width: 30vw;
+  }
+  .website-logo {
+    height: 8vh;
+    width: 15vw;
+    align-self: center;
+  }
+  .login-input-container {
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .input-element {
+    font-size: 16px;
+  }
+
+  .login-button {
+    font-size: 16px;
+  }
+
+  .error-msg {
+    font-size: 16px;
+  }
+}
